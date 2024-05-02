@@ -6,9 +6,9 @@ USE DATABASE empresa;
 CREATE TABLE pessoas (
 cod_pessoa INTEGER NOT NULL AUTO_INCREMENT,
 nome VARCHAR(100) NULL,
-cliEmail VARCHAR(100) NULL,
+email VARCHAR(100) NULL,
 endereco VARCHAR(100) NULL,
-telefona VARCHAR(16)
-cliDataNascimento DATE NULL,
+telefone VARCHAR(16),
+data_nascimento DATE NULL,
 PRIMARY KEY(cod_pessoa)
 );
